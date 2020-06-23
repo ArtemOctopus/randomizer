@@ -424,7 +424,7 @@ const App = () => {
     <div className="App">
       <div className="Start" onClick={() => random()}>Старт</div>
       <div className="flex">
-        <Card title={'Хобби'} name={allCards.hobbi[newCard.hobbi]} />
+        <Card title={'Хобби'} name={allCards.hobbi[newCard.hobbi]} />{/*  */}
         <Card title={'Профессия'} name={allCards.profa[newCard.profa]} />
         <Card title={'Ориентация'} name={allCards.opientacia[newCard.opientacia]} />
         <Card title={'Инвентарь'} name={allCards.inventar[newCard.inventar]} />
